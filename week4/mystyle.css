@@ -1,0 +1,78 @@
+
+
+
+h1{
+	font-size: 100px;
+	text-align: center;
+	font-family: 'Sigmar One', cursive;
+	margin: 0 0 -30px 0;
+	
+}
+
+h2{
+	font-size: 45px;
+	text-align: center;
+	margin: 0 0 75px 0;
+}
+
+h3{
+	text-align: left;
+	font-size: 25px;
+}
+
+p{
+	font-size: 25px;
+}
+
+ul {
+	display:table; margin:0 auto;
+}
+
+
+li{
+	display: inline;
+	margin: 0 auto;
+	padding: 0px 200px 0px 200px;
+}
+
+small{
+	font-size: 25px;
+	margin: auto;
+    width: 30%;
+}
+
+h4{
+	font-size: 50px;
+	text-align: center;
+	margin: -20px 0 0 0;
+}
+
+.topHead{
+	background: url("file://C:/Users/James/Documents/SCHOOL/mi349/week4/background1.jpg");
+	margin: 0 0 -30px;
+}
+
+.longpitch{
+	background: rgba(180,180,180, 1);
+}
+.persona1{
+	font-size: 25px;
+	margin: auto;
+    width: 50%;
+}
+.persona2{
+	font-size: 25px;
+	margin: auto;
+	width: 50%;
+}
+.persona3{
+	font-size: 25px;
+	margin: auto;
+	width: 50%;
+}
+
+.descriptions{
+	font-size: 25px;
+	text-align:center;
+}
+	
