@@ -37,8 +37,7 @@ li{
 
 small{
 	font-size: 25px;
-	margin: auto;
-    width: 30%;
+	text-align: center;
 }
 
 h4{
@@ -57,18 +56,15 @@ h4{
 }
 .persona1{
 	font-size: 25px;
-	margin: auto;
-    width: 50%;
+	text-align: center;
 }
 .persona2{
 	font-size: 25px;
-	margin: auto;
-	width: 50%;
+	text-align: center;
 }
 .persona3{
 	font-size: 25px;
-	margin: auto;
-	width: 50%;
+	text-align: center;
 }
 
 .descriptions{
