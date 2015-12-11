@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>2 Column Layout &mdash; Left Menu</title>
+		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		
+	
+	</head>
+	
+	<body>
+		<div id="wrapper">
+		
+			<main>
+
+
+				<div class="textbox">
+					<h1>About Me</h1>
+					<p>This site is all about me!</p>
+				</div>
+
+				<div class="textbox">
+					<h1>Projects and Goals</h1>
+					<p>I got some goals</p>
+
+				</div>
+
+
+			</main>
+			
+			<nav id="nav">
+				<div class="profile">
+					<h2>James Dodge</h2>
+					<img src="http://i.imgur.com/lWdGVRk.png" width="65%" height="65%">
+				</div>
+						
+				<div class="navbar">
+					<ul>
+						<li>
+							<button id="homeButton">Home</button>
+						</li>
+
+						<li>
+							<button id="resumeButton">Resume</button>
+						</li>
+
+						<li>
+							<button id="gitHubButton">GitHub</button>
+						</li>
+
+						<li>
+							<button id="contactButton">Contact</button>
+						</li>
+					</ul>
+				</div>
+			</nav>
+			
+		</div>
+
+		<script>
+			document.getElementById("homeButton").onclick = function () {
+		        location.href = "http://i.imgur.com/lWdGVRk.png";
+		    };
+		    document.getElementById("resumeButton").onclick = function () {
+		        location.href = "http://i.imgur.com/lWdGVRk.png";
+		    };
+		    document.getElementById("gitHubButton").onclick = function () {
+		        location.href = "http://i.imgur.com/lWdGVRk.png";
+		    };
+		    document.getElementById("contactButton").onclick = function () {
+		        location.href = "http://i.imgur.com/lWdGVRk.png";
+		    };
+
+		</script>
+
+	</body>
+</html>
