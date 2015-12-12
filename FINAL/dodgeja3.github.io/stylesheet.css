@@ -128,10 +128,11 @@ button:hover {
 	width: 50%;
 	height: 50%;
 	display: flex;
+	visibility: hidden;
 }
 
 .show-portfolio .sites{
-	visibility: hidden;
+	visibility: visible;
 }
 
 
