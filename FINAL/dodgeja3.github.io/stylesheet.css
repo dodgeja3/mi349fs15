@@ -30,7 +30,7 @@ main {
 
 .textbox{
 	width: 100%;
-	padding: 70px 0 0 675px;
+	padding: 70px 50px 0 675px;
 	/*margin: 0 auto;*/
 }
 
@@ -140,20 +140,48 @@ button:hover {
 @media (min-width:400px) and (max-width:799px){
 	.textbox{
 		padding-left: 300px;
-		width: 100%;
+		width: 50%;
 	}
+
+	.portfolioButton{
+		padding-left: 300px;
+	}
+
+	.sites{
+		padding-left: 200px;
+	}
+
+
 }
 
 @media (min-width:800px) and (max-width:1199px){
 	.textbox{
 		padding-left: 400px;
-		width: 33%;
+		width: 50%;
 	}
+	.portfolioButton{
+		padding-left: 550px;
+	}
+
+	.sites{
+		padding-left: 240px;
+	}
+
+
 }
 
 @media (min-width:1200px){
 	.textbox{
 		padding-left:675px;
-		width: 25%;
+		width: 50%;
 	}
+	.portfolioButton{
+		padding-left: 850px;
+	}
+
+	.sites{
+		padding-left: 440px;
+	}
+
+
 }
