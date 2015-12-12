@@ -6,6 +6,7 @@ body{
 }
 
 main {
+	background-image: url("http://i.imgur.com/8m373lX.jpg");
 	padding-bottom: 10010px;
 	margin-bottom: -10000px;
 	float: left;
@@ -19,6 +20,7 @@ main {
 	padding-bottom: 10010px;
 	margin-bottom: -10000px;
 	background: #eee;
+	opacity: 1;
 }
 
 #wrapper {
@@ -27,8 +29,8 @@ main {
 
 
 .textbox{
-	max-width: 1000px;
-	padding: 70px 0 0 800px;
+	width: 100%;
+	padding: 70px 0 0 675px;
 	/*margin: 0 auto;*/
 }
 
@@ -41,6 +43,7 @@ main {
 	float: left;
 	display: flex;
 	flex-direction: column;
+	opacity: 1;
 }
 
 li{
@@ -60,14 +63,96 @@ nav ul {
 
 
 button:hover {
-	border-color: rgb(255, 0, 0);
+	border-color: rgb(0, 0, 0);
 }
 
-button {
+
+
+/*-----------Nav bar section---------------*/
+.navbutton {
 	background-image: url("http://i.imgur.com/6JL60CY.png");
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
 	height: 75px;
 	width: 200px;
-	border: transparent;
+}
+
+
+
+
+.show-navbar .sidebar{
+	position: absolute;
+	left: -1000px;
+}
+
+.navToggle {
+	/*padding-left: 370px;*/
+	background-image: url("http://i.imgur.com/eEpL8TU.png");
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	height: 67px;
+	width: 76px;
+	position: fixed;
+    bottom: 0px;
+    left: 0px; 
+}
+
+.show-navbar .navToggle{
+	webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+
+
+
+
+
+/*-----------Portfolio section---------------*/
+.portfolioButton {
+	padding: 70px 0 0 850px;
+}
+
+.portfolioToggle {
+	background-image: url("http://i.imgur.com/6JL60CY.png");
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	height: 75px;
+	width: 200px;
+}
+
+.sites {
+	padding-left: 440px;
+	width: 50%;
+	height: 50%;
+	display: flex;
+}
+
+.show-portfolio .sites{
+	visibility: hidden;
+}
+
+
+
+@media (min-width:400px) and (max-width:799px){
+	.textbox{
+		padding-left: 300px;
+		width: 100%;
+	}
+}
+
+@media (min-width:800px) and (max-width:1199px){
+	.textbox{
+		padding-left: 400px;
+		width: 33%;
+	}
+}
+
+@media (min-width:1200px){
+	.textbox{
+		padding-left:675px;
+		width: 25%;
+	}
 }

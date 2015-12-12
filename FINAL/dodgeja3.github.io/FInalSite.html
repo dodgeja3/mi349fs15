@@ -12,67 +12,86 @@
 	
 	<body>
 		<div id="wrapper">
-		
+			
 			<main>
-
 
 				<div class="textbox">
 					<h1>About Me</h1>
-					<p>This site is all about me!</p>
+					<p>Hey there! Looks like you find your way onto my personal site. Since you're here, I'm guessing you probably want to know a little
+						bit more about. I am currently a Junior attending Michigan State University studying Computer Science. Some of my hobbies include
+						biking, programming, and taking hanging out on Michigan State's awesome campus! Anyways, you can learn more about me through this
+						site so feel free to look around! </p>
 				</div>
 
 				<div class="textbox">
 					<h1>Projects and Goals</h1>
-					<p>I got some goals</p>
+					<ul>
+						<li>My main goal is to develop software in an inovative company which strives to benefit society as a whole</li>
+						<li>A game based in android OS</li>
+						<li>Startup Company known as Pridgit LLC which specializes in 3D printing</li>
+						<li>Developing code, especially at hackathons!</li>
+						<li>Getting better at web dev</li>
+					</ul>
 
+				</div>
+
+
+
+				<div class="portfolioButton">
+					<button class="portfolioToggle">Portfolio</button>
+				</div>
+
+				<div class="sites">
+					<a href="https://dash.generalassemb.ly/projects/build-your-own-personal-website"><img src="http://i.imgur.com/50OmvJ3.png">Personal</a>
+
+					<a href="https://dash.generalassemb.ly/projects/cotbots-4"><img src="http://i.imgur.com/q3eqM2y.png">Bot</a>
+
+					<a href="https://dash.generalassemb.ly/projects/madlins-5"><img src="http://i.imgur.com/zZLrOjF.png">Madlib</a>
 				</div>
 
 
 			</main>
 			
-			<nav id="nav">
-				<div class="profile">
-					<h2>James Dodge</h2>
-					<img src="http://i.imgur.com/lWdGVRk.png" width="65%" height="65%">
-				</div>
-						
-				<div class="navbar">
-					<ul>
-						<li>
-							<button id="homeButton">Home</button>
-						</li>
+			<div class="sidebar">
+				<nav id="nav">
+					
+						<div class="profile">
+							<h2>James Dodge</h2>
+							<img src="http://i.imgur.com/lWdGVRk.png" width="65%" height="65%">
+						</div>
+								
+						<div class="navbar">
+							<ul>
+								<li>
+									<button id="homeButton" class='navbutton'>Home</button>
+								</li>
 
-						<li>
-							<button id="resumeButton">Resume</button>
-						</li>
+								<li>
+									<button id="resumeButton" class='navbutton'>Resume</button>
+								</li>
 
-						<li>
-							<button id="gitHubButton">GitHub</button>
-						</li>
+								<li>
+									<button id="gitHubButton" class='navbutton'>GitHub</button>
+								</li>
 
-						<li>
-							<button id="contactButton">Contact</button>
-						</li>
-					</ul>
-				</div>
-			</nav>
+								<li>
+									<button id="contactButton" class='navbutton'>Contact</button>
+								</li>
+
+								<li>
+									<button id="socialMediaButton" class='navbutton'>Social Media</button>
+								</li>
+							</ul>
+						</div>
+
+
+			</div>
+
+				<button class="navToggle"></button>
 			
 		</div>
 
-		<script>
-			document.getElementById("homeButton").onclick = function () {
-		        location.href = "http://i.imgur.com/lWdGVRk.png";
-		    };
-		    document.getElementById("resumeButton").onclick = function () {
-		        location.href = "http://i.imgur.com/lWdGVRk.png";
-		    };
-		    document.getElementById("gitHubButton").onclick = function () {
-		        location.href = "http://i.imgur.com/lWdGVRk.png";
-		    };
-		    document.getElementById("contactButton").onclick = function () {
-		        location.href = "http://i.imgur.com/lWdGVRk.png";
-		    };
-
+		<script src="FinalSite.js">
 		</script>
 
 	</body>
